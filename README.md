@@ -1,4 +1,5 @@
 # iOS_iLocky_SDK
+v0.2 support web api passport
 
 v0.1 support obj-c 
 
