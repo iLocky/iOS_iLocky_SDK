@@ -1,4 +1,7 @@
 # iOS_iLocky_SDK
+
+v1.0 support foreground mode
+
 v0.2 support web api passport
 
 v0.1 support obj-c 
