@@ -6,23 +6,48 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		8jRyOQYMh8705BHf0CbOaGO0IGM=
+		o1LaKnsQMNS6Cw4fsG2arqNlw+g=
 		</data>
-		<key>Headers/ILocky-Swift.h</key>
-		<data>
-		UeUMefIZEyL70uUExRfSCRJGUis=
-		</data>
+		<key>Base.lproj/iLocky.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			QRDmgFQQeRc1CI/5zXtSI4QgSAk=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>Headers/Mixpanel.h</key>
 		<data>
-		Zj0u9wNgBOkUzsXFVF5ROJv2nng=
+		1OC98DUXXi9rXDRhUWG+cW3agoU=
+		</data>
+		<key>Headers/ilocky-Swift.h</key>
+		<data>
+		YtcNdv+M3oznpILIkCVfGLhCzVU=
 		</data>
 		<key>Headers/ilocky.h</key>
 		<data>
 		7Ix0d07uQ/GZWctbIZgmve9YfCs=
 		</data>
+		<key>ILocky.storyboardc/ILockyViewController.nib</key>
+		<data>
+		cyUovKHR8Ij43nsJD28wi4XSADM=
+		</data>
+		<key>ILocky.storyboardc/Info.plist</key>
+		<data>
+		blMkqclsbzOa+OyytEgRKOjg5NM=
+		</data>
+		<key>ILocky.storyboardc/uPC-L7-bNN-view-ubc-NM-KUf.nib</key>
+		<data>
+		bsKJolsuIy6cu0eyuOYOK5UPdbA=
+		</data>
 		<key>Info.plist</key>
 		<data>
-		6Wmo8eAe1jqg+oBhevPNBjF8IzE=
+		4P+b+lCKvwiVjf8N9sBOeALRUWo=
+		</data>
+		<key>LoadingView.nib</key>
+		<data>
+		WARleu/X3XPQDHIvmEDiJjC+Bxo=
 		</data>
 		<key>MPNotification.storyboardc/Info.plist</key>
 		<data>
@@ -30,11 +55,11 @@
 		</data>
 		<key>MPNotification.storyboardc/MPNotificationViewController.nib</key>
 		<data>
-		zkuM8geA4LzuGEuATpLHJzOZUjM=
+		7g6Uk2eL5DTz/Z4JUh+fXDfp/XQ=
 		</data>
 		<key>MPNotification.storyboardc/puo-Hy-QiQ-view-Wch-Xc-Avw.nib</key>
 		<data>
-		R4R06Z5Wtsd+/XMmkhBfDBe4hOg=
+		jRQiWTdVmOMmIE77Bogu42b5qxE=
 		</data>
 		<key>MPSurvey.storyboardc/Info.plist</key>
 		<data>
@@ -42,47 +67,133 @@
 		</data>
 		<key>MPSurvey.storyboardc/MPSurveyMultipleChoiceQuestionViewController.nib</key>
 		<data>
-		Zwd1j+yNOPT1KVm/BGXl+sIj40I=
+		pSiSTWXLIWyWotUCHJGeZ6+lplY=
 		</data>
 		<key>MPSurvey.storyboardc/MPSurveyNavigationController.nib</key>
 		<data>
-		vHHSawVqck34ohJs/5JtqmsdGGo=
+		My18S8/RdBI7DNq3lyNobpBEBto=
 		</data>
 		<key>MPSurvey.storyboardc/MPSurveyTextQuestionViewController.nib</key>
 		<data>
-		O8v9LmYEViAl6S2Y1VIoGeHDpUo=
+		Cksp07/OihZ+AY2t0YXhZfJq0SE=
 		</data>
 		<key>MPSurvey.storyboardc/RIP-po-dgx-view-cp6-lZ-a9t.nib</key>
 		<data>
-		B/Gue2EoTO+ijueKkMrzhxutwic=
+		HG169d7OAalWvBAarr+BdjPMdy0=
 		</data>
 		<key>MPSurvey.storyboardc/V5X-Ik-MvF-view-dcL-M9-gG3.nib</key>
 		<data>
-		4REQZaI3U7DpeiC6N0avt7wCEQE=
+		VsX/6JwpSaf6KYWoJTJhZ5LwAgw=
 		</data>
 		<key>MPSurvey.storyboardc/tDf-fb-udT-view-LG7-cL-aRp.nib</key>
 		<data>
-		tidKueOVrBD4GpVAQbmEYhAMxN4=
+		Iydj2RP48rTpkOcG04nD/R3XRmQ=
 		</data>
-		<key>Modules/ILocky.swiftmodule/arm.swiftdoc</key>
+		<key>Modules/ilocky.swiftmodule/arm.swiftdoc</key>
 		<data>
-		QOeg/8LHFbopVDkscLSD/dQ9Zfw=
+		z9gym0lF2avZftPcPwlmxaitbzc=
 		</data>
-		<key>Modules/ILocky.swiftmodule/arm.swiftmodule</key>
+		<key>Modules/ilocky.swiftmodule/arm.swiftmodule</key>
 		<data>
-		8wh641mLHwyDCAJuWIMBk8Mo55c=
+		y69TEZU7Bq4Gmlz8/pSz77eU5fY=
 		</data>
-		<key>Modules/ILocky.swiftmodule/arm64.swiftdoc</key>
+		<key>Modules/ilocky.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		u4wrsQO9h92pn0vpTJtCws5YddE=
+		fIpxOKAjR9plS6cvnn3Uj8k/7Lc=
 		</data>
-		<key>Modules/ILocky.swiftmodule/arm64.swiftmodule</key>
+		<key>Modules/ilocky.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		BOIdNU9SqFibJNdyLbw5j7kn0B8=
+		4yDDOE2VPD44LPsHVpmgWQal9Y4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		RAAqmmwnez7hy1paofLgQ1j8e3o=
+		iucWEsG4kG70NcpYZSWJDu9Ve+U=
+		</data>
+		<key>en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zmV6UqBSo6r1NOz798vd5O4zTBA=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>en.lproj/iLocky.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			BPjPwvivWtc1BGkyq/VNIkfkjrk=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>keylessok_ad1.png</key>
+		<data>
+		AQFXAuo6FqFGZ3y2IHNLLE+1Mzk=
+		</data>
+		<key>keylessok_down_arrow.png</key>
+		<data>
+		X3R0cLfc9WbyJ0E4mYBEQ7FnLLI=
+		</data>
+		<key>keylessok_finger.png</key>
+		<data>
+		EQevruV7Pd6NcXjZ0POl2NU/nJY=
+		</data>
+		<key>keylessok_logo.png</key>
+		<data>
+		xQqXYVWl0Uj54bABwNuZgLRLZw4=
+		</data>
+		<key>keylessok_mobile_phone.png</key>
+		<data>
+		I33htjvL9+FhPDF7lZL5UQVQYmI=
+		</data>
+		<key>keylessok_sensor_area.png</key>
+		<data>
+		1/+8Nn/n0pM9kxRSfw3r2J1FP5w=
+		</data>
+		<key>keylessok_ui_1.png</key>
+		<data>
+		D/ucSwQqna5ZV8wYx4IZwTTyhig=
+		</data>
+		<key>keylessok_ui_1_1.png</key>
+		<data>
+		pGUWkpfhnITvJDdxoa8oBAzUfU0=
+		</data>
+		<key>keylessok_ui_2.png</key>
+		<data>
+		cMsuuLTh+8QeZsCKKvFgw35xdKs=
+		</data>
+		<key>keylessok_ui_2_1.png</key>
+		<data>
+		OZrzvDLnczdu/2g4vsZvM23Ktbc=
+		</data>
+		<key>keylessok_ui_3.png</key>
+		<data>
+		5wJYhxT5Jcl5Gj1SJY/QX92Yy20=
+		</data>
+		<key>keylessok_ui_fail.png</key>
+		<data>
+		tXdkIz/bqlXvGG0hwdoNHMpjzZQ=
+		</data>
+		<key>keylessok_ui_no_key.png</key>
+		<data>
+		lx2lYp8PliSeyU7UeV1/XENN0q4=
+		</data>
+		<key>keylessok_ui_not_allow.png</key>
+		<data>
+		t/OcMHpCpBQA57vKvSj9LsafcNU=
+		</data>
+		<key>keylessok_ui_success.png</key>
+		<data>
+		JjzpqUQ4IxTSTKuFCt9FFbalidQ=
+		</data>
+		<key>notclose.wav</key>
+		<data>
+		JoMxRAyY3rcpLAZQS1kcGqJCczQ=
+		</data>
+		<key>open.mp3</key>
+		<data>
+		xOTqg/uWz+1sCi+ZjZMISjal6VY=
 		</data>
 		<key>snapshot_config.json</key>
 		<data>
@@ -92,24 +203,67 @@
 		<data>
 		ouWTknzWxFO14J/HV4HSJMDy+Nw=
 		</data>
+		<key>zh-Hans.lproj/iLocky.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Hl4RzciNjaNQq4Cu8ntEcmC/VsI=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>zh-Hant.lproj/iLocky.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			XOkjN9P5LLYYucZbQkmcuRnN0Y0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 	</dict>
 	<key>files2</key>
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		8jRyOQYMh8705BHf0CbOaGO0IGM=
+		o1LaKnsQMNS6Cw4fsG2arqNlw+g=
 		</data>
-		<key>Headers/ILocky-Swift.h</key>
-		<data>
-		UeUMefIZEyL70uUExRfSCRJGUis=
-		</data>
+		<key>Base.lproj/iLocky.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			QRDmgFQQeRc1CI/5zXtSI4QgSAk=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>Headers/Mixpanel.h</key>
 		<data>
-		Zj0u9wNgBOkUzsXFVF5ROJv2nng=
+		1OC98DUXXi9rXDRhUWG+cW3agoU=
+		</data>
+		<key>Headers/ilocky-Swift.h</key>
+		<data>
+		YtcNdv+M3oznpILIkCVfGLhCzVU=
 		</data>
 		<key>Headers/ilocky.h</key>
 		<data>
 		7Ix0d07uQ/GZWctbIZgmve9YfCs=
+		</data>
+		<key>ILocky.storyboardc/ILockyViewController.nib</key>
+		<data>
+		cyUovKHR8Ij43nsJD28wi4XSADM=
+		</data>
+		<key>ILocky.storyboardc/Info.plist</key>
+		<data>
+		blMkqclsbzOa+OyytEgRKOjg5NM=
+		</data>
+		<key>ILocky.storyboardc/uPC-L7-bNN-view-ubc-NM-KUf.nib</key>
+		<data>
+		bsKJolsuIy6cu0eyuOYOK5UPdbA=
+		</data>
+		<key>LoadingView.nib</key>
+		<data>
+		WARleu/X3XPQDHIvmEDiJjC+Bxo=
 		</data>
 		<key>MPNotification.storyboardc/Info.plist</key>
 		<data>
@@ -117,11 +271,11 @@
 		</data>
 		<key>MPNotification.storyboardc/MPNotificationViewController.nib</key>
 		<data>
-		zkuM8geA4LzuGEuATpLHJzOZUjM=
+		7g6Uk2eL5DTz/Z4JUh+fXDfp/XQ=
 		</data>
 		<key>MPNotification.storyboardc/puo-Hy-QiQ-view-Wch-Xc-Avw.nib</key>
 		<data>
-		R4R06Z5Wtsd+/XMmkhBfDBe4hOg=
+		jRQiWTdVmOMmIE77Bogu42b5qxE=
 		</data>
 		<key>MPSurvey.storyboardc/Info.plist</key>
 		<data>
@@ -129,47 +283,133 @@
 		</data>
 		<key>MPSurvey.storyboardc/MPSurveyMultipleChoiceQuestionViewController.nib</key>
 		<data>
-		Zwd1j+yNOPT1KVm/BGXl+sIj40I=
+		pSiSTWXLIWyWotUCHJGeZ6+lplY=
 		</data>
 		<key>MPSurvey.storyboardc/MPSurveyNavigationController.nib</key>
 		<data>
-		vHHSawVqck34ohJs/5JtqmsdGGo=
+		My18S8/RdBI7DNq3lyNobpBEBto=
 		</data>
 		<key>MPSurvey.storyboardc/MPSurveyTextQuestionViewController.nib</key>
 		<data>
-		O8v9LmYEViAl6S2Y1VIoGeHDpUo=
+		Cksp07/OihZ+AY2t0YXhZfJq0SE=
 		</data>
 		<key>MPSurvey.storyboardc/RIP-po-dgx-view-cp6-lZ-a9t.nib</key>
 		<data>
-		B/Gue2EoTO+ijueKkMrzhxutwic=
+		HG169d7OAalWvBAarr+BdjPMdy0=
 		</data>
 		<key>MPSurvey.storyboardc/V5X-Ik-MvF-view-dcL-M9-gG3.nib</key>
 		<data>
-		4REQZaI3U7DpeiC6N0avt7wCEQE=
+		VsX/6JwpSaf6KYWoJTJhZ5LwAgw=
 		</data>
 		<key>MPSurvey.storyboardc/tDf-fb-udT-view-LG7-cL-aRp.nib</key>
 		<data>
-		tidKueOVrBD4GpVAQbmEYhAMxN4=
+		Iydj2RP48rTpkOcG04nD/R3XRmQ=
 		</data>
-		<key>Modules/ILocky.swiftmodule/arm.swiftdoc</key>
+		<key>Modules/ilocky.swiftmodule/arm.swiftdoc</key>
 		<data>
-		QOeg/8LHFbopVDkscLSD/dQ9Zfw=
+		z9gym0lF2avZftPcPwlmxaitbzc=
 		</data>
-		<key>Modules/ILocky.swiftmodule/arm.swiftmodule</key>
+		<key>Modules/ilocky.swiftmodule/arm.swiftmodule</key>
 		<data>
-		8wh641mLHwyDCAJuWIMBk8Mo55c=
+		y69TEZU7Bq4Gmlz8/pSz77eU5fY=
 		</data>
-		<key>Modules/ILocky.swiftmodule/arm64.swiftdoc</key>
+		<key>Modules/ilocky.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		u4wrsQO9h92pn0vpTJtCws5YddE=
+		fIpxOKAjR9plS6cvnn3Uj8k/7Lc=
 		</data>
-		<key>Modules/ILocky.swiftmodule/arm64.swiftmodule</key>
+		<key>Modules/ilocky.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		BOIdNU9SqFibJNdyLbw5j7kn0B8=
+		4yDDOE2VPD44LPsHVpmgWQal9Y4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		RAAqmmwnez7hy1paofLgQ1j8e3o=
+		iucWEsG4kG70NcpYZSWJDu9Ve+U=
+		</data>
+		<key>en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zmV6UqBSo6r1NOz798vd5O4zTBA=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>en.lproj/iLocky.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			BPjPwvivWtc1BGkyq/VNIkfkjrk=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>keylessok_ad1.png</key>
+		<data>
+		AQFXAuo6FqFGZ3y2IHNLLE+1Mzk=
+		</data>
+		<key>keylessok_down_arrow.png</key>
+		<data>
+		X3R0cLfc9WbyJ0E4mYBEQ7FnLLI=
+		</data>
+		<key>keylessok_finger.png</key>
+		<data>
+		EQevruV7Pd6NcXjZ0POl2NU/nJY=
+		</data>
+		<key>keylessok_logo.png</key>
+		<data>
+		xQqXYVWl0Uj54bABwNuZgLRLZw4=
+		</data>
+		<key>keylessok_mobile_phone.png</key>
+		<data>
+		I33htjvL9+FhPDF7lZL5UQVQYmI=
+		</data>
+		<key>keylessok_sensor_area.png</key>
+		<data>
+		1/+8Nn/n0pM9kxRSfw3r2J1FP5w=
+		</data>
+		<key>keylessok_ui_1.png</key>
+		<data>
+		D/ucSwQqna5ZV8wYx4IZwTTyhig=
+		</data>
+		<key>keylessok_ui_1_1.png</key>
+		<data>
+		pGUWkpfhnITvJDdxoa8oBAzUfU0=
+		</data>
+		<key>keylessok_ui_2.png</key>
+		<data>
+		cMsuuLTh+8QeZsCKKvFgw35xdKs=
+		</data>
+		<key>keylessok_ui_2_1.png</key>
+		<data>
+		OZrzvDLnczdu/2g4vsZvM23Ktbc=
+		</data>
+		<key>keylessok_ui_3.png</key>
+		<data>
+		5wJYhxT5Jcl5Gj1SJY/QX92Yy20=
+		</data>
+		<key>keylessok_ui_fail.png</key>
+		<data>
+		tXdkIz/bqlXvGG0hwdoNHMpjzZQ=
+		</data>
+		<key>keylessok_ui_no_key.png</key>
+		<data>
+		lx2lYp8PliSeyU7UeV1/XENN0q4=
+		</data>
+		<key>keylessok_ui_not_allow.png</key>
+		<data>
+		t/OcMHpCpBQA57vKvSj9LsafcNU=
+		</data>
+		<key>keylessok_ui_success.png</key>
+		<data>
+		JjzpqUQ4IxTSTKuFCt9FFbalidQ=
+		</data>
+		<key>notclose.wav</key>
+		<data>
+		JoMxRAyY3rcpLAZQS1kcGqJCczQ=
+		</data>
+		<key>open.mp3</key>
+		<data>
+		xOTqg/uWz+1sCi+ZjZMISjal6VY=
 		</data>
 		<key>snapshot_config.json</key>
 		<data>
@@ -179,6 +419,24 @@
 		<data>
 		ouWTknzWxFO14J/HV4HSJMDy+Nw=
 		</data>
+		<key>zh-Hans.lproj/iLocky.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Hl4RzciNjaNQq4Cu8ntEcmC/VsI=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>zh-Hant.lproj/iLocky.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			XOkjN9P5LLYYucZbQkmcuRnN0Y0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 	</dict>
 	<key>rules</key>
 	<dict>
