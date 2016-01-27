@@ -448,6 +448,9 @@ SWIFT_CLASS("_TtC6ilocky6Device")
 
 SWIFT_CLASS("_TtC6ilocky6ILocky")
 @interface ILocky : NSObject
++ (BOOL)success;
++ (void)setSuccess:(BOOL)value;
++ (BOOL)isForegroundAccessSuccess;
 + (void)setLanguage:(NSString * __nonnull)lang;
 + (void)setAdsImageURLTracking:(UIImage * __nonnull)image url:(NSURL * __nonnull)url tracking:(NSString * __nonnull)tracking;
 + (void)setBackground:(BOOL)isBackground keepScan:(BOOL)keepScan;
