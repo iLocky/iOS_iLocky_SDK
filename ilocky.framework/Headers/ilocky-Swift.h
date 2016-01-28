@@ -443,11 +443,14 @@ SWIFT_CLASS("_TtC6ilocky6Device")
 - (NSInteger)getThreshould;
 @end
 
+@protocol ILockyViewControllerCallback;
 @protocol ILockyEventDelegate;
 @class NSString;
 
 SWIFT_CLASS("_TtC6ilocky6ILocky")
 @interface ILocky : NSObject
++ (id <ILockyViewControllerCallback> __nullable)iLockyViewControllerCallback;
++ (void)setILockyViewControllerCallback:(id <ILockyViewControllerCallback> __nullable)value;
 + (BOOL)success;
 + (void)setSuccess:(BOOL)value;
 + (BOOL)isForegroundAccessSuccess;
@@ -570,6 +573,12 @@ SWIFT_CLASS("_TtC6ilocky14ILockyPassport")
 + (BOOL)removePassport:(ILockyPassport * __null_unspecified)passport;
 - (BOOL)isSame:(ILockyPassport * __nonnull)passport;
 + (void)importPassport:(NSString * __nonnull)content error:(NSError * __nullable * __null_unspecified)error;
+@end
+
+
+SWIFT_PROTOCOL("_TtP6ilocky28ILockyViewControllerCallback_")
+@protocol ILockyViewControllerCallback
+- (void)onDismiss:(BOOL)success;
 @end
 
 
