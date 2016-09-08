@@ -447,6 +447,7 @@ SWIFT_CLASS("_TtC6ilocky6Device")
 + (Device * _Nullable)bluetoothNameToiLockyDevice:(NSString * _Nullable)peripheralName;
 - (NSString * _Nonnull)getOpenDoorCommand:(ILockyPassport * _Nonnull)passport;
 - (NSInteger)getThreshould;
+- (BOOL)isAESEnabled;
 @end
 
 @protocol ILockyViewControllerCallback;
@@ -460,10 +461,13 @@ SWIFT_CLASS("_TtC6ilocky6ILocky")
 + (BOOL)success;
 + (void)setSuccess:(BOOL)value;
 + (BOOL)isForegroundAccessSuccess;
++ (ILockyPassport * _Nullable)usedILockyPassport;
++ (void)setUsedILockyPassport:(ILockyPassport * _Nullable)value;
 + (void)setLanguage:(NSString * _Nonnull)lang;
 + (void)setAdsImageURLTracking:(UIImage * _Nonnull)image url:(NSURL * _Nonnull)url tracking:(NSString * _Nonnull)tracking;
 + (void)setBackground:(BOOL)isBackground keepScan:(BOOL)keepScan;
 + (void)setBackground:(BOOL)isBackground;
++ (void)setDetailTrackEnable:(BOOL)detail;
 + (void)setEventDelegate:(id <ILockyEventDelegate> _Nonnull)delegate;
 + (void)track:(NSString * _Nonnull)event;
 + (void)trackWaitTime:(ILockyPassport * _Nonnull)passport success:(BOOL)success wait_time:(NSInteger)wait_time;
@@ -494,6 +498,8 @@ SWIFT_CLASS("_TtC6ilocky16ILockyBLEManager")
 - (void)centralManager:(CBCentralManager * _Nonnull)central didConnectPeripheral:(CBPeripheral * _Nonnull)peripheral;
 - (void)peripheral:(CBPeripheral * _Nonnull)peripheral didDiscoverServices:(NSError * _Nullable)error;
 - (void)peripheral:(CBPeripheral * _Nonnull)peripheral didDiscoverCharacteristicsForService:(CBService * _Nonnull)service error:(NSError * _Nullable)error;
+- (void)peripheral:(CBPeripheral * _Nonnull)peripheral didUpdateNotificationStateForCharacteristic:(CBCharacteristic * _Nonnull)characteristic error:(NSError * _Nullable)error;
+- (void)peripheral:(CBPeripheral * _Nonnull)peripheral didUpdateValueForCharacteristic:(CBCharacteristic * _Nonnull)characteristic error:(NSError * _Nullable)error;
 - (void)peripheral:(CBPeripheral * _Nonnull)peripheral didWriteValueForCharacteristic:(CBCharacteristic * _Nonnull)characteristic error:(NSError * _Nullable)error;
 - (void)centralManagerDidUpdateState:(CBCentralManager * _Nonnull)central;
 - (void)centralManager:(CBCentralManager * _Nonnull)central didFailToConnectPeripheral:(CBPeripheral * _Nonnull)peripheral error:(NSError * _Nullable)error;
@@ -512,6 +518,7 @@ SWIFT_PROTOCOL("_TtP6ilocky19ILockyEventDelegate_")
 - (void)onNotCloseEnough;
 @end
 
+@class NSData;
 
 SWIFT_CLASS("_TtC6ilocky14ILockyPassport")
 @interface ILockyPassport : NSObject
@@ -530,6 +537,8 @@ SWIFT_CLASS("_TtC6ilocky14ILockyPassport")
 + (NSString * _Null_unspecified)VALID;
 + (NSString * _Null_unspecified)LAST_TIME_STAMP;
 + (NSString * _Null_unspecified)DURATION;
++ (NSString * _Null_unspecified)USER_TAG;
++ (NSString * _Null_unspecified)ILOCKY_NAME;
 + (NSString * _Null_unspecified)SERVER_PASSPORT;
 + (NSString * _Null_unspecified)SERVER_PASSPORT_ID;
 + (NSString * _Null_unspecified)SERVER_ILOCKY_ID;
@@ -539,6 +548,10 @@ SWIFT_CLASS("_TtC6ilocky14ILockyPassport")
 + (NSString * _Null_unspecified)SERVER_TIMES_LIMIT;
 + (NSString * _Null_unspecified)SERVER_REVOKE_LEGACY;
 + (NSString * _Null_unspecified)SERVER_RFID_DURATION;
++ (NSString * _Null_unspecified)SERVER_SIGNATURE;
++ (NSString * _Null_unspecified)SERVER_PASSPORT_NAME;
++ (NSString * _Null_unspecified)SERVER_USER_TAG;
++ (NSString * _Null_unspecified)SERVER_ILOCKY_NAME;
 + (NSString * _Null_unspecified)SERVER_ACTION_TYPE;
 + (NSString * _Null_unspecified)SERVER_ACTION_TYPE_LOW_SECURITY_OPEN;
 + (NSString * _Null_unspecified)SERVER_ACTION_TYPE_DFU_OTA;
@@ -546,8 +559,10 @@ SWIFT_CLASS("_TtC6ilocky14ILockyPassport")
 + (NSString * _Null_unspecified)SERVER_ACTION_TYPE_RESET;
 + (NSString * _Null_unspecified)SERVER_ACTION_TYPE_FACTORY_RESET;
 + (ILockyPassport * _Nonnull)Builder;
+- (ILockyPassport * _Nonnull)setUserTag:(NSString * _Nullable)tag;
+- (ILockyPassport * _Nonnull)setILockyName:(NSString * _Nullable)name;
 - (ILockyPassport * _Nonnull)setActionType:(NSInteger)type;
-- (ILockyPassport * _Nonnull)setPassportName:(NSString * _Nonnull)name;
+- (ILockyPassport * _Nonnull)setPassportName:(NSString * _Nullable)name;
 - (ILockyPassport * _Nonnull)setDeviceId:(NSString * _Nonnull)id;
 - (ILockyPassport * _Nonnull)setILockyId:(NSString * _Nonnull)id;
 - (ILockyPassport * _Nonnull)setStartTime:(int64_t)time;
@@ -556,6 +571,8 @@ SWIFT_CLASS("_TtC6ilocky14ILockyPassport")
 - (ILockyPassport * _Nonnull)setRevokePast:(BOOL)revoke;
 - (ILockyPassport * _Nonnull)setSignature:(NSString * _Nonnull)signature;
 - (ILockyPassport * _Nonnull)setDuration:(NSInteger)durationInMilli;
+- (NSString * _Null_unspecified)getUserTag;
+- (NSString * _Null_unspecified)getILockyName;
 - (NSString * _Null_unspecified)getILockyID;
 - (NSString * _Nullable)getPassportName;
 - (NSInteger)getActionType;
@@ -564,6 +581,7 @@ SWIFT_CLASS("_TtC6ilocky14ILockyPassport")
 - (int64_t)getStartTime;
 - (int64_t)getEndTime;
 - (NSInteger)getDuration;
+- (NSString * _Nonnull)getSignature;
 - (NSString * _Nonnull)toJSONString;
 + (NSArray<ILockyPassport *> * _Nonnull)getAlliLockyPassports;
 + (void)initialize;
@@ -578,6 +596,7 @@ SWIFT_CLASS("_TtC6ilocky14ILockyPassport")
 + (ILockyPassport * _Nullable)getValidPassport:(NSString * _Nonnull)iLocky_id;
 - (BOOL)isValid;
 + (BOOL)removePassport:(ILockyPassport * _Null_unspecified)passport;
+- (NSData * _Null_unspecified)getPassportPacket:(NSInteger)num;
 - (BOOL)isSame:(ILockyPassport * _Nonnull)passport;
 + (void)importPassport:(NSString * _Nonnull)content error:(NSError * _Nullable * _Null_unspecified)error;
 @end
